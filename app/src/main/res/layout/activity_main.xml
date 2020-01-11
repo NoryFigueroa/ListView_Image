@@ -5,9 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <ListView
-        android:id="@+id/contactosList"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </ListView>
+
+        <Button
+        android:id="@+id/btnTipo"
+        android:text="Lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnTipo2"
+            android:text="Huancayo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <ListView
+            android:id="@+id/contactosList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
